@@ -123,9 +123,8 @@ function OrderScreen(props) {
               <div>Order Total</div>
               <div>Ksh{order.totalPrice}</div>
             </li>
+            
           </ul>
-
-
 
         </div>
 

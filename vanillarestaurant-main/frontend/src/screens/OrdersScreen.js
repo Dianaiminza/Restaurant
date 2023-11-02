@@ -20,7 +20,7 @@ function OrdersScreen(props) {
   }, [successDelete]);
 
   const deleteHandler = (order) => {
-    if (window.confirm('Are you sure to delete?')) {
+    if (window.confirm('Are you sure you want  to delete this product?')) {
       dispatch(deleteOrder(order._id));
     }
   }
